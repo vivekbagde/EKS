@@ -21,3 +21,7 @@ eksctl get clusters
 #To check nodes in cluster
 kubectl get nodes
 
+#To delete cluster
+eksctl delete cluster <clusterName>
+eksctl delete cluster eksdemo
+
